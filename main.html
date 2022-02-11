@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <title>tic tac toe</title>
+        <style>
+            
+           
+            
+            body{
+                width: 550px;
+                margin: auto;
+                background: #EAF2EF;
+                
+            }
+            
+            h1{
+                border-bottom: 1px solid black;
+                font-family: 'Raleway',sans-serif;
+            }
+            .square{
+                height: 80px;
+                width: 80px;
+                font-size: 40px;
+                text-align: center;
+                font-family: 'comfortaa',cursive;
+            }
+            #message{
+                font-size: 18pt;
+            }
+        
+        
+        
+        </style>
+    </head>
+    
+    <body onload="startGame();">
+        <h1>TIC TAC TOE IN JAVASCRIPT.</h1>
+        <div id="message">Message here</div>
+        <table border="1">
+           
+            <tr>
+                <td class="square" id="s1" onClick="nextMove(this)"></td>
+                <td class="square" id="s2" onClick="nextMove(this)"></td>
+                <td class="square" id="s3" onClick="nextMove(this)"></td>
+            </tr>
+            
+            <tr>
+             <td class="square" id="s4" onClick="nextMove(this)"></td>
+             <td class="square" id="s5" onClick="nextMove(this)"></td>
+             <td class="square" id="s6" onClick="nextMove(this)"></td>
+             </tr>
+            
+            <tr>
+            <td class="square" id="s7" onClick="nextMove(this)"></td>
+            <td class="square" id="s8" onClick="nextMove(this)"></td>
+            <td class="square" id="s9" onClick="nextMove(this)"></td>
+            </tr>
+            
+        </table>
+        <script src="main.js"></script>
+    </body>
+    
+</html>
